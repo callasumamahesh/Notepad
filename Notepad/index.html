@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad</title>
+    <link rel="icon" href="./New folder/icons8-right-handed-48.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <div class="left">
+            <section>
+                <img src="./New folder/icons8-notepad-32.png" alt="">
+                <h1>NOTE LAND</h1>
+            </section>
+            <section class="notesatnotepad">
+                <div class="note">
+                    
+                </div>
+            </section> 
+            <section>
+                <button class="newnote" onclick="CreateNewNote()">New Note</button>
+            </section>         
+        </div>
+        <div class="right">
+            <div class="clickOneditButton">
+                <div class="edit">
+                    <h2 class="notetitle_right"></h2>
+                    
+                </div>
+                <div class="editclass"> 
+                    <textarea class="description" cols="30" row="10">
+                    </textarea>
+                </div>
+               
+            </div>
+            <section class="inputbox">
+                <div class="input">
+                    <input type="text" placeholder="Note Title" id="text" required>
+                    <textarea name="" id="textarea" cols="30" rows="10" required>
+                    </textarea>
+                </div>
+                <div>
+                    <button id="inputbutton">Create Note</button>
+                </div>
+            </section>
+
+            <section class="task">
+                
+            </section>
+
+            <section class="image">
+                <img src="./New folder/Capture.PNG" alt="">
+                <h2>No Notes Found</h2>
+                <p>Add Some Notes From The Left Column</p>
+            </section>
+        </div>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
